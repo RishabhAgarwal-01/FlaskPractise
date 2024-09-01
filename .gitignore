@@ -1,0 +1,46 @@
+# Ignore the virtual environment directory
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Flask instance folder
+instance/
+
+# Flask config file (if it contains sensitive information)
+config.py
+
+# Ignore environment variables
+.env
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Ignore MacOS-specific files
+.DS_Store
+
+# Log files
+*.log
+
+# SQLite database files
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# Celery beat schedule file
+celerybeat-schedule
+celerybeat.pid
